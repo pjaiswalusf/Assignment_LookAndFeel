@@ -49,51 +49,6 @@ body {
 /* Nav 2 End */
 /***************************/
  
-/***************************/
-/* Pre-Header Start */
- 
-#Pre-header {
-  /* background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; */
-  height: 600px;
-}
- 
-/*
-#header .container {
-  width: 37%;
-  margin-right: 0;
-  padding: 30px 35px 40px 10px;
-  text-align: left;
-}
- 
-#header .container h1 {
-  color: darkred;
-  margin-top: 100px;
-}
- 
-#header .container h4 {
-  color: rgb(51, 58, 65);
-  line-height: 1.4em;
-  margin-bottom: 20px;
-}
- 
-#header .more {
-  color: darkorange;
-  background: rgb(51, 58, 65);
-  font-size: 18px;
-  padding: 5px 35px 5px 35px;
-  margin-left: 0px 18px 0px 5px;
-  border-radius: 5px;
-}
- 
-#header .more:hover {
-  color: red;
-  transition: color 0.5s;
-} */
- 
-/* Pre-Header End */
-/***************************/
  
 /***************************/
 /* Header Start */
@@ -108,7 +63,7 @@ body {
 }
  
 #header .container {
-  width: 37%;
+  width: 100vw;
   margin-right: 0;
   padding: 30px 35px 40px 10px;
   text-align: left;
@@ -260,47 +215,6 @@ body {
 /* Articles End */
 /***************************/
  
-
-/* Guide Start */
- 
-#Guide {
-  overflow: hidden;
-  padding-top: 50px;
-  color: darkred;
-}
-#Guide .container {
-  display: flex;
-  justify-content: center; /* Center-align content horizontally */
-}
-#Guide .box {
-  border: 1px solid #ccc;
-  padding: 20px;
-  text-align: center; /* Center-align content within the box */
-}
-#Guide img {
-  margin-bottom: 10px; /* Add space below the image */
-}
-#Guide p {
-  margin-top: 0;
-  margin-bottom: 10px; /* Add space below the paragraph */
-}
-#Guide h2:last-child {
-  margin-bottom: 10px; /* Add space below the last heading */
-}
-button[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  background-color: #b5b9b6;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-button[type="submit"]:hover {
-  background-color: #890a0a;
-}
- 
-/* Guide End */
-
 
 /***************************/
 /* Requests Start */
@@ -700,37 +614,7 @@ button[type="submit"]:hover {
 
 /* Footer End */
 /***************************/
-/***************************/
- 
- 
-/* Requests Page Start */
-/*****************************************************************/
- 
-#navigator .container .path{
-  border: 1px solid lightgrey;
-  border-radius: 10px;
-  font-size: 22px;
-  padding: 10px 20px 10px 30px;
-  margin: 30px 0px 30px 0px;
-  width: 100%;
-}
- 
-#requests .page-num{
-  margin-top: 40px;
-  padding-bottom: 0px;
-}
- 
-#requests .page-num li a{
-  color: darkred;
-}
- 
-#requests .page-num li a:hover{
-  color: white;
-  background-color: darkred
-}
- 
-/*****************************************************************/
- 
+
  
  
 /* Dashboard Start */
